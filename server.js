@@ -6,32 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articles={
- 'article-one':{
-    title: 'Article One | Ricky Raghavan',
-    heading: 'Article One',
-    date: 'Sep 5, 2016',
-    content: `<p>
-             This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.
-             
-         </p>
-         
-         <p>This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.
-         </p>
-         <p>This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.
-         
-         
-         
-         </p>`
-    
-    
-    
-},
-'article-two':{
-    title: 'Article Two | Ricky Raghavan',
-    heading: 'Article Two',
-    date: 'Sep 10, 2016',
-    content: `<p>
+
              This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.This is the comment of my first article.
              
          </p>
